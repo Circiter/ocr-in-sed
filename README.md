@@ -4,11 +4,12 @@ Optical character recognition (OCR) in sed. Reimplementation of Kopczynski's OCR
 
 Example:
 ```bash
-cat 9.txt | ./ocr.sed
+cat examples/9.txt | ./ocr.sed
 # Expected output: 9.
 ```
 
-Try other `*.txt` files or "draw" your own (simple "ascii-art" matrices of x'es and whitespaces).
+Try other `examples/*.txt` files or "draw" your own (simple "ascii-art" matrices
+of x'es and whitespaces).
 
 The algorithms finds a topological invariant known as the Euler number and uses it
 to tell the numbers apart. Currently, it is able to recognize 8, 9, 10, and 11. So many numbers...
