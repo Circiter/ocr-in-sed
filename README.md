@@ -11,7 +11,7 @@ cat examples/9.txt | ./ocr.sed
 Try other `examples/*.txt` files or "draw" your own (simple "ascii-art" matrices
 of x'es and whitespaces).
 
-The algorithms finds a topological invariant known as the Euler number and uses it
+The algorithm finds a topological invariant known as the Euler number and uses it
 to tell the numbers apart. Currently, it is able to recognize 8, 9, 10, and 11. So many numbers...
 
 See references below and the source code (`ocr.sed`) for implementation details
